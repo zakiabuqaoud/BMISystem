@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BMIAPP">
         <activity
+            android:name=".activity_home"
+            android:exported="false" />
+        <activity
+            android:name=".activity_complete_your_information"
+            android:exported="false" />
+        <activity
             android:name=".activity_bmi_register"
             android:exported="false" />
         <activity
