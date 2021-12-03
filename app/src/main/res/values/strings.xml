@@ -33,4 +33,16 @@
     <string name="addRecord">Add Record</string>
     <string name="viewFood">View Food</string>
     <string name="logout">Logout</string>
+    <string name="newRecord">New Record</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="addFoodDetails">Add Food Details</string>
+    <string name="category">Category</string>
+    <string name="calorie">Calory</string>
+    <string name="calOnG">cal/g</string>
+    <string name="photo">Photo</string>
+    <string name="uploadPhoto">Upload Photo</string>
+    <string name="save">Save</string>
 </resources>

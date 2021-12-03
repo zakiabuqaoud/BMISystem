@@ -8,7 +8,7 @@
     android:background="#0092C3"
     >
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/BMIImageView"
         android:layout_width="500dp"
         android:layout_height="400dp"
         app:srcCompat="@drawable/zaki"
