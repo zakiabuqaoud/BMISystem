@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BMIAPP">
         <activity
+            android:name=".activity_edit_food_details"
+            android:exported="false" />
+        <activity
+            android:name=".activity_Food_List"
+            android:exported="false" />
+        <activity
             android:name=".activity_add_food_details"
             android:exported="false" />
         <activity

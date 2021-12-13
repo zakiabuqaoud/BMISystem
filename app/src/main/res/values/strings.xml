@@ -45,4 +45,6 @@
     <string name="photo">Photo</string>
     <string name="uploadPhoto">Upload Photo</string>
     <string name="save">Save</string>
+    <string name="foodList">Food List</string>
+    <string name="editFoodDetails">Edit Food Details</string>
 </resources>

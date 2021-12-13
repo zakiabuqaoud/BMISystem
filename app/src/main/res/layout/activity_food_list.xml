@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/SuperLinear"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/FirstTextView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:padding="12dp"
+        android:text="@string/BMIAnalyzer"
+        android:background="@color/main_col"
+        android:layout_marginBottom="40dp"
+        />
+    <TextView
+        android:id="@+id/SecondTextView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/foodList"
+        android:textAlignment="center"
+        android:textColor="@color/main_col"
+        android:textSize="40dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        />
+
+
+
+</LinearLayout>
