@@ -47,4 +47,6 @@
     <string name="save">Save</string>
     <string name="foodList">Food List</string>
     <string name="editFoodDetails">Edit Food Details</string>
+    <string name="edit">Edit</string>
+    <string name="x">X</string>
 </resources>

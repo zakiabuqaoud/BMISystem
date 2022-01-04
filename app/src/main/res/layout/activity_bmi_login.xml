@@ -54,7 +54,7 @@
         android:orientation="vertical"
         >
     <EditText
-        android:id="@+id/FirstEditTextUsername"
+        android:id="@+id/l_FirstEditTextUsername"
         android:layout_width="360dp"
         android:layout_height="55dp"
         android:layout_gravity="center"
@@ -64,7 +64,7 @@
         android:backgroundTint="@color/main_col"
         />
         <EditText
-            android:id="@+id/SecondEditTextPassword"
+            android:id="@+id/l_SecondEditTextPassword"
             android:layout_width="360dp"
             android:layout_height="55dp"
             android:layout_gravity="center"
@@ -75,7 +75,7 @@
             android:backgroundTint="@color/main_col"
             />
         <Button
-            android:id="@+id/FirstButtonLogin"
+            android:id="@+id/l_FirstButtonLogin"
             android:layout_width="220dp"
             android:layout_height="60dp"
             android:layout_marginTop="70dp"
@@ -103,14 +103,15 @@
             android:textSize="20dp"
             android:textColor="@color/gray"
             />
-        <TextView
-            android:id="@+id/sixthTextView"
+        <Button
+            android:id="@+id/l_signUp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/signUp"
-            android:textSize="20dp"
+            android:textSize="13dp"
             android:textColor="@color/main_col"
             android:clickable="true"
+            android:background="none"
             />
 </LinearLayout>
 </LinearLayout>

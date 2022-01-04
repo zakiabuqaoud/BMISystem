@@ -7,6 +7,7 @@
     android:background="@color/white"
     android:id="@+id/SuperLinear"
     android:orientation="vertical">
+   
     <TextView
         android:id="@+id/FirstTextView"
         android:layout_width="match_parent"
@@ -67,31 +68,12 @@
         android:fontFamily="serif"
         android:layout_marginBottom="10dp"
         />
-    <LinearLayout
-        android:id="@+id/boxLinear"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-        <TextView
-            android:id="@+id/box1"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:text="20/12/2020     Normal"
-            android:textSize="30dp"
-            android:fontFamily="serif"
-            android:paddingTop="60dp"
-            />
-        <TextView
-            android:id="@+id/box2"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:text="60Kgm   170Cm"
-            android:textSize="30dp"
-            android:fontFamily="serif"
-            />
-
-    </LinearLayout>
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/recordsRecycler"
+       android:layout_width="350dp"
+       android:layout_height="250dp"
+       android:layout_gravity="center"
+       />
 
     <LinearLayout
         android:id="@+id/buttons"
@@ -100,7 +82,7 @@
         android:orientation="horizontal"
         >
         <Button
-            android:id="@+id/addFood"
+            android:id="@+id/h_addFood"
             android:layout_width="150dp"
             android:layout_height="match_parent"
             android:backgroundTint="@color/main_col"
@@ -110,7 +92,7 @@
             android:layout_marginLeft="40dp"
             />
         <Button
-            android:id="@+id/addRecord"
+            android:id="@+id/h_addRecord"
             android:layout_width="150dp"
             android:layout_height="match_parent"
             android:backgroundTint="@color/main_col"
@@ -127,7 +109,7 @@
         android:orientation="vertical"
         >
         <Button
-            android:id="@+id/viewFood"
+            android:id="@+id/h_viewFood"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/main_col"
@@ -136,17 +118,17 @@
             android:text="@string/viewFood"
             android:layout_marginLeft="30dp"
             />
+
         <Button
-            android:id="@+id/logOut"
+            android:id="@+id/h_logout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/logout"
-            android:background="none"
-            android:textColor="@color/black"
             android:layout_gravity="center_horizontal"
-            android:textSize="15dp"
+            android:background="none"
             android:fontFamily="sans-serif-medium"
-            ></Button>
+            android:text="@string/logout"
+            android:textColor="@color/black"
+            android:textSize="15dp"></Button>
 
     </LinearLayout>
 

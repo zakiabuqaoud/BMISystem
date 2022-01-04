@@ -13,8 +13,8 @@
         android:layout_height="400dp"
         app:srcCompat="@drawable/zaki"
         android:layout_gravity="center"/>
-    <TextView
-        android:id="@+id/TextView"
+    <Button
+        android:id="@+id/main_nextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="textEnd"
@@ -27,5 +27,6 @@
         android:fontFamily="serif-monospace"
         android:textStyle="bold|italic"
         android:clickable="true"
+        android:backgroundTint="@color/main_col"
         />
 </FrameLayout>

@@ -50,7 +50,7 @@
             android:paddingTop="10dp"
             />
         <Button
-            android:id="@+id/decrement"
+            android:id="@+id/ar_dec_w"
             android:layout_width="35dp"
             android:layout_height="match_parent"
             android:backgroundTint="@color/white"
@@ -63,8 +63,8 @@
             />
 
 
-        <TextView
-            android:id="@+id/display"
+        <EditText
+            android:id="@+id/ar_w"
             android:layout_width="70dp"
             android:background="@android:color/white"
             android:layout_height="match_parent"
@@ -75,7 +75,7 @@
             android:textSize="25dp"
             />
         <Button
-            android:id="@+id/increment"
+            android:id="@+id/ar_inc_w"
             android:layout_width="30dp"
             android:layout_height="match_parent"
             android:padding="0dp"
@@ -117,7 +117,7 @@
             android:paddingTop="10dp"
             />
         <Button
-            android:id="@+id/decrement2"
+            android:id="@+id/ar_dec_len"
             android:layout_width="35dp"
             android:layout_height="match_parent"
             android:backgroundTint="@color/white"
@@ -129,8 +129,8 @@
             android:textColor="@color/main_col"
             />
 
-        <TextView
-            android:id="@+id/display2"
+        <EditText
+            android:id="@+id/ar_len"
             android:layout_width="70dp"
             android:background="@android:color/white"
             android:layout_height="match_parent"
@@ -141,7 +141,7 @@
             android:textSize="25dp"
             />
         <Button
-            android:id="@+id/increment2"
+            android:id="@+id/ar_inc_len"
             android:layout_width="30dp"
             android:layout_height="match_parent"
             android:padding="0dp"
@@ -183,7 +183,7 @@
             android:paddingTop="10dp"
             />
         <EditText
-            android:id="@+id/DateEditText"
+            android:id="@+id/ar_date"
             android:layout_width="160dp"
             android:layout_height="match_parent"
             android:backgroundTint="@color/main_col"
@@ -193,14 +193,14 @@
     </LinearLayout>
     /*Time*/
     <LinearLayout
-        android:id="@+id/FifthSupLinear"
+        android:id="@+id/ar_time"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal"
         android:layout_margin="10dp"
         >
         <TextView
-            android:id="@+id/TimeTextView"
+            android:id="@+id/lin"
             android:layout_width="200dp"
             android:layout_height="match_parent"
             android:text="@string/time"
@@ -211,7 +211,7 @@
             android:paddingTop="10dp"
             />
         <EditText
-            android:id="@+id/TimeEditText"
+            android:id="@+id/ar_time"
             android:layout_width="160dp"
             android:layout_height="match_parent"
             android:backgroundTint="@color/main_col"
@@ -219,7 +219,7 @@
             />
     </LinearLayout>
     <Button
-        android:id="@+id/saveData"
+        android:id="@+id/ar_saveData"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_gravity="center_horizontal"

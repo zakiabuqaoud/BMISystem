@@ -53,7 +53,7 @@
             android:orientation="vertical"
             >
             <EditText
-                android:id="@+id/FirstEditTextUsername"
+                android:id="@+id/r_FirstEditTextUsername"
                 android:layout_width="360dp"
                 android:layout_height="55dp"
                 android:layout_gravity="center"
@@ -63,7 +63,7 @@
                 android:backgroundTint="@color/main_col"
                 />
             <EditText
-                android:id="@+id/SecondEditTextPassword"
+                android:id="@+id/r_SecondEditTextEmail"
                 android:layout_width="360dp"
                 android:layout_height="70dp"
                 android:layout_gravity="center"
@@ -73,7 +73,7 @@
                 android:backgroundTint="@color/main_col"
                 />
             <EditText
-                android:id="@+id/ThirdEditTextPassword"
+                android:id="@+id/r_ThirdEditTextPassword"
                 android:layout_width="360dp"
                 android:layout_height="70dp"
                 android:layout_gravity="center"
@@ -83,7 +83,7 @@
                 android:backgroundTint="@color/main_col"
                 />
             <EditText
-                android:id="@+id/FourthEditTextPassword"
+                android:id="@+id/r_FourthEditTextPasswordConfirm"
                 android:layout_width="360dp"
                 android:layout_height="70dp"
                 android:layout_gravity="center"
@@ -93,7 +93,7 @@
                 android:backgroundTint="@color/main_col"
                 />
             <Button
-                android:id="@+id/FirstButtonLogin"
+                android:id="@+id/r_FirstButtonLogin"
                 android:layout_width="320dp"
                 android:layout_height="60dp"
                 android:layout_marginTop="50dp"
@@ -122,14 +122,15 @@
             android:textSize="20dp"
             android:textColor="@color/gray"
             />
-        <TextView
-            android:id="@+id/sixthTextView"
+        <Button
+            android:id="@+id/r_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/logIn"
             android:textSize="20dp"
             android:textColor="@color/main_col"
             android:clickable="true"
+            android:background="none"
             />
     </LinearLayout>
 </LinearLayout>
